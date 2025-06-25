@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJ Website</title>
+  <link rel="Short icon" href="img/ChatGPT Image Jun 25, 2025, 12_30_35 AM.png" type="Image">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .hero {
+      width: 100%;
+      height: 800px;
+      background-image: url(https://preview.colorlib.com/theme/orbit/images/hero_img.jpg.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: absolute;
+      top: 0px;
+      z-index: -2;
+    }
+    .overlay {
+      width: 100%;
+      height: 800px;
+      background-color: #00000060;
+    }
+    a {
+      text-decoration: none;
+      cursor: pointer !important;
+
+    }
+    .a {
+      color: #50b650;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer !important;
+    }
+    .a:hover {
+      color: green;
+    }
+    ::selection {
+      background-color: black;
+      color: #fff;
+    }
+
+    .link{
+      color: rgb(110, 110, 110);
+      transition: 0.3s;
+      margin: 20px;
+    }
+    .link:hover{
+        color: #50b650;
+        margin: 25px;
+    }
+    .skew{
+      overflow: hidden;
+      transition: 0.5s;
+    }
+    .skew:hover > img{
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+    input{
+      outline: none;
+      border: none;
+      border-bottom: 2px solid black;
+      width: 125%;
+    
+      padding: 10px;
+    }
+
+    @media only screen and (max-width: 500px) {
+      input,
+      textarea {
+        width: 100% !important;
+      }
+      .First_name{
+          margin-left: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand border ps-3 pe-3 fs-1" href="#">AJ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-lg-5 ps-lg-5" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#MyPortfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="overlay">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-center" style="margin-top: 300px;">
+          <h1 style="color: #ffffff; font-size: 60px;">I'm Hassan Rajput <br> A Front-end Developer</h1>
+          <p class="fs-4" style="color: #ffffff;">
+            A new work from
+            <a href="https://colorlib.com/wp/templates/" class="a fs-4" target="_blank" style="cursor: pointer; !important">Colorlib</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Spacer -->
+  <div style="height: 850px;"></div>
+
+  <!-- About Section -->
+  <div class="container mt-5">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-5 col-md-6 col-sm-12">
+        <img src="https://preview.colorlib.com/theme/orbit/images/image_1_long.jpg.webp" alt="Profile Image" class="img-fluid" width="100%">
+      </div>
+      <div class="col-lg-5 col-md-6 col-sm-12 mt-4 mt-md-0">
+        <h1 style="font-size: 50px;" id="about">My Bio</h1><br>
+        <p style="font-size: 20px;">
+          Far far away, behind the word mountains, far from the <br>
+          countries Vokalia and Consonantia, there live the blind <br>
+          texts. Separated they live in Bookmarksgrove right at the <br>
+          coast of the Semantics, a large language ocean.
+          <br><br>
+
+        </p>
+          <p style="font-size: 20px;">Design</p>
+          <img src="image/Desigen.png" alt="" width="100%">
+
+                    <p style="font-size: 20px;">HTML5</p>
+          <img src="image/HTML 5.png" alt="" width="100%">
+
+                    <p style="font-size: 20px;">CSS3</p>
+          <img src="image/CSS 3.png" alt="" width="100%">
+
+                    <p style="font-size: 20px;">WordPress</p>
+          <img src="image/wordpress.png" alt="" width="100%">
+
+                    <h2 style="font-size: 20px;">Bootstrap</h2>
+          <img src="image/Bootstrap.png" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+<br><br>
+<center>
+  <h1 id="MyPortfolio">My Portfolio</h1>
+  <br><br>
+  <a href="#" class="a">All</a>
+  <a href="#" class="link">Packaging</a>
+  <a href="#" class="link">Mockup</a>
+  <a href="#" class="link">Typography</a>
+  <a href="#" class="link">Photography</a>
+  <br><br><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <div class="skew">
+
+        <img src="https://preview.colorlib.com/theme/orbit/images/work_5.jpg" alt="" width="100%"><br><br>
+      </div>
+      <div class="skew">
+        <img src="https://preview.colorlib.com/theme/orbit/images/work_3.jpg" alt="" width="100%">
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-12 skew">
+
+      <img src="https://preview.colorlib.com/theme/orbit/images/work_1.jpg" alt="" width="100%">
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 skew">
+      <img src="https://preview.colorlib.com/theme/orbit/images/work_2.jpg" alt="" width="100%">
+    </div>
+    
+    <div class="col-lg-4 col-md-4 col-sm-12 skew">
+            <img src="https://preview.colorlib.com/theme/orbit/images/work_4.jpg" alt="" width="100%">
+
+    </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 skew mt-3">
+            <img src="https://preview.colorlib.com/theme/orbit/images/work_7.jpg" alt="" width="100%">
+
+    </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 skew mt-3">
+            <img src="https://preview.colorlib.com/theme/orbit/images/work_6.jpg" alt="" width="100%">
+
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+<div class="container">
+  <h1 id="Services">Services</h1>
+  <br><br>
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 border ">
+        <img src="image/laptop.png" alt="" width="30%">
+        <h1>Development</h1>
+        <br>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-12 border">
+        <img src="image/sketch.png" alt="" width="30%">
+        <h1>Design</h1>
+        <br>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 border">
+        <img src="image/grocery-store.png" alt="" width="30%">
+        <h1>Ecommerce</h1>
+        <br>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    </div>
+</div>
+</div>
+<br><br><br><br>
+<h1 id="Resume">Resume</h1>
+</center>
+<br><br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="https://preview.colorlib.com/theme/orbit/images/image_1_long.jpg.webp" alt="" width="80%">
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h2>Work Experience</h2>
+          <br>
+          <div class="border-bottom pb-2">
+            <label style="font-size: x-large;">Senior Front End Developer</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <button class="btn btn-light" style="border-radius: 50px;color: #50b650;">Fulltime</button><br><br>
+            <img src="image/business-and-trade.png" alt="" width="5%">&nbsp;&nbsp;Facebook, Inc.&nbsp;&nbsp; <img src="image/maps-and-flags.png" alt="" width="5%">&nbsp;&nbsp; San Francisco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/calendar.png" alt="" width="5%">&nbsp;&nbsp;November 2019 - Present
+          </div>
+
+
+
+          <div class="border-bottom pb-2 mt-3">
+            <label style="font-size: x-large;">Front-end Engineer</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-light" style="border-radius: 50px;color: #50b650;">Fulltime</button><br><br>
+            <img src="image/business-and-trade.png" alt="" width="5%">&nbsp;&nbsp;Facebook, Inc.&nbsp;&nbsp; <img src="image/maps-and-flags.png" alt="" width="5%">&nbsp;&nbsp; San Francisco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/calendar.png" alt="" width="5%">&nbsp;&nbsp;March 2015 - November 2019
+          </div>
+
+
+          <div class="border-bottom pb-2 mt-3">
+            <label style="font-size: x-large;">Web Designer</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;
+            <button class="btn btn-light" style="border-radius: 50px;color: #50b650;">Fulltime</button><br><br>
+            <img src="image/business-and-trade.png" alt="" width="5%">&nbsp;&nbsp;Facebook, Inc.&nbsp;&nbsp; <img src="image/maps-and-flags.png" alt="" width="5%">&nbsp;&nbsp; San Francisco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/calendar.png" alt="" width="5%">&nbsp;&nbsp;January 2010 - March 2015
+          </div>
+
+
+
+
+          <div class="border-bottom pb-2 mt-3">
+            <label style="font-size: x-large;">Lead Front - end Engineer</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn btn-light" style="border-radius: 50px;color: #50b650;">Fulltime</button><br><br>
+            <img src="image/business-and-trade.png" alt="" width="5%">&nbsp;&nbsp;Facebook, Inc.&nbsp;&nbsp; <img src="image/maps-and-flags.png" alt="" width="5%">&nbsp;&nbsp; San Francisco&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/calendar.png" alt="" width="5%">&nbsp;&nbsp;January 2010
+          </div>
+        </div>
+    </div>
+       </div>
+      <br><br><br><br>
+        <center>
+        <h1 id="Blog">Read on Medium</h1>
+        <br><br><br>
+      </center>
+  <div class="ms-5 mb-3 pb-5 border-bottom">
+
+  Jun 28, 2020
+  <h2>Front-end Developer Demands today</h2>
+</div>
+
+  <div class="ms-5 mb-3 pb-5 border-bottom">
+
+  Jun 28, 2020
+  <h2>I Used React JS</h2>
+</div>
+
+
+  <div class="ms-5 mb-3 pb-5 border-bottom">
+
+  Jun 28, 2020
+  <h2>Why Front-end Developer So Important</h2>
+</div>
+<br><br><br>
+
+<div class="container">
+  <center>
+  <h1 id="Contact">
+
+      Contact Me
+    </h1>
+    </center>
+    <br><br><br>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <form action="" method="get">
+
+          <label for="First name" class="First_name">
+            <h4>
+              
+            First name <br>
+          </h4>
+          <input type="text" name="First name" id="First name" class="pb-2 ">
+        </label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <label for="Last name" class="mt-3">
+          <h4>
+
+           &nbsp;&nbsp; Last name <br>
+          </h4>
+          <input type="text" name="Last name" id="Last name" class="pb-2 ms-3">
+        </label>
+
+        <br><br>
+        <label for="Eamil">
+          <h4>
+
+          &nbsp;&nbsp;  Eamil <br>
+        </h4>
+        <input type="eamil" name="Eamil" id="Eamil" class="pb-2 ms-3 content" style="width: 245%;">
+      </label>
+      <br><br>
+      <label for="Eamil">
+        <h4>
+          
+          &nbsp;&nbsp;  Massage <br>
+        </h4>
+        <textarea name="Massage" id="Massage" class="pb-2 ms-3 content" style="width: 290%; outline: none;border: none;border-bottom: 2px solid black ;" rows="5"></textarea>
+
+      </label>
+      <br><br><br>
+      <button class="btn btn-success" style="border-radius: 50px;padding: 13px;"> Seand Massage</button>
+      <br><br>
+    </form>
+      </div>
+
+
+
+
+      <div class="col-lg-6 col-md-6 col-sm-12 ps-5">
+        <br>
+        <h4>Contact Info</h4>
+        <br>
+        <img src="image/maps-and-flags.png" alt="" width="5%"><span>43 Raymouth Rd. Baltemoer, London 3910</span><br><br>
+        <a href="tel:+92 345 3013944" class="a ">+92 345 3013944</a><br><br>
+         <a href="tel:+92 348 2977954" class="a ">+92 348 2977954</a><br><br>
+         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTKXCctWslkfVKHFWVGwSpNQpPggSlCtWmjMBzxkTBRPRjTPfdrSRqFhTCCbdFJBjBXdwL" class="a">info@mydomain.com</a><br><br>
+         <a href="https://colorlib.com/wp/templates/" class="a" target="_blank">https://colorlib</a>
+      </div>
+    </div>
+  
+  </div>
+  <br><br><br>
+  <div style="background-color: #dfdfdf;">
+<br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+        <h4>About Orbit.</h4>
+        <br>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      </div>
+
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h4>Navagation</h4>
+        <br>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>jQuery</p>
+        <p>Bootstrap</p>
+        <p>Javascript</p>
+      </div>
+
+
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h4>Services</h4>
+        <br>
+        <p>Web Design</p>
+        <p>Ecommerce</p>
+        <p>WordPress</p>
+        <p>Frontend</p>
+      </div>
+
+
+
+
+
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h4>Contact</h4>
+        <br>
+                <img src="image/maps-and-flags.png" alt="" width="5%"><span>43 Raymouth Rd. Baltemoer, London 3910</span><br><br>
+        <a href="tel:+92 345 3013944" class="link ">+923453013944</a><br><br>
+         <a href="tel:+92 348 2977954" class="link ">+92 348 2977954</a><br><br>
+         <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJTKXCctWslkfVKHFWVGwSpNQpPggSlCtWmjMBzxkTBRPRjTPfdrSRqFhTCCbdFJBjBXdwL" class="link">info@mydomain.com</a><br><br>
+         <a href="https://colorlib.com/wp/templates/" class="link" target="_blank">https://colorlib</a>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <center>
+    <footer>Copyright ©2025 All rights reserved | This template is made with <img src="image/heart.png" alt="">by 
+      <a href="" class="link">
+
+        Hassan Rajput
+      </a>
+      </footer>
+  </center>
+  <br><br>
+</div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
